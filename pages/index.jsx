@@ -1,8 +1,16 @@
-export default function HomePage() {
-  return (
-    <main style={{ minHeight: "100vh", background: "#000", color: "#fff", padding: "40px" }}>
-      <h1>Dx Tattoo Hunting Baroda</h1>
-      <p>Deployment test successful.</p>
-    </main>
-  );
-}
+import React, { useMemo, useState } from "react";
+import { motion } from "framer-motion";
+import {
+  Phone,
+  MapPin,
+  Image as ImageIcon,
+  Star,
+  IndianRupee,
+  Sparkles,
+  HeartHandshake,
+  ShieldCheck,
+  Instagram,
+  Smartphone,
+  Monitor,
+  Wand2,
+} from "lucide-react";
